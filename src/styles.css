@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import "ag-grid-community/styles/ag-grid.css";
+@import "ag-grid-community/styles/ag-theme-alpine.css";
+
+app-root {
+  padding: 48px;
+  display: block;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

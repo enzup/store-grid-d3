@@ -1,0 +1,19 @@
+.search {
+  margin-bottom: 48px;
+  height: 48px;
+  width: 200px;
+  margin-right: 8px;
+
+  &-container {
+    display: block;
+  }
+}
+
+button {
+  height: 48px;
+  padding: 12px 24px;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}

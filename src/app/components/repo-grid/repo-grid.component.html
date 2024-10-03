@@ -1,0 +1,10 @@
+<ng-container *ngIf="rowData.length">
+  <ag-grid-angular
+    class="ag-theme-alpine github-grid"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs"
+    [pagination]="true"
+    [paginationPageSize]="20"
+  >
+  </ag-grid-angular>
+</ng-container>
